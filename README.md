@@ -18,7 +18,11 @@ area del repositorio GIT
 * staged: Archivos que estan en el area temporal o intermedia
 ## saber estado actua de los archivos
 git status
-git add (nombre del archivo)
-git commit -m "mensaje explicativo"
+git add (nombre del archivo) . <--con puntito anado todos los archivos del directorio
+git commit -m "mensaje explicativo" (saco la foto)
+git commit historia
+git commit --oneline historia resuminda
 git log(veo la caja de fotos, la info que tengo en el local repo) 
 version corta de git log --oneline
+## si quiero ver los cambios entre el WD y el LR
+git diff te muestra la variacion que hubo en el archivo
